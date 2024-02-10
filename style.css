@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'SuperMario256';
+    src: url('fonts/SuperMario256.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+body{
+    background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    margin-top: -100px;
+}
+
+.line{
+    background-color: rgba(47, 199, 233, 0.929);
+    height: 250px;
+    margin-top: 100px;
+    position: relative;
+    right: 0;
+    transition: right 1.75s ease-out;
+
+}
+
+.line:hover{
+    right: 500px;
+    background-color: rgba(47, 199, 233, 0.158);
+
+}
+
+.line2{
+    background-color: #d7dff0;
+    height: 250px;
+    position: relative;
+    left: 0;
+    transition: left 1.75s ease-out;
+}
+
+.line2:hover{
+    left: 650px;
+    background-color: #d7dff000;
+}
+
+.line3{
+    background-color: #dc802acc;
+    height: 250px;
+    position: relative;
+    right: 0;
+    transition: right 1.75s ease-out;
+
+}
+
+.line3:hover{
+    right: 500px;
+    background-color: #dc802ab5 ;
+}
+
+
+img{
+    width: 10%;
+    height: 100%;
+    margin-left: 600px;
+}
+
+div{
+    font-family: '/fonts/SuperMario256';
+    font: 5em 'SuperMario256';
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
